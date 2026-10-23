@@ -26,12 +26,23 @@ public class Madlibs {
     story = part1 + adjective1 + part2;
 
     //split story for verb
-    int startVerb1 = story.indexof("<");
-    int endVerb1 = story.indexOf(">");
-    String part1 = story.substring(0, startVerb1);
-    String part2 = story.substring(endAdjective1 + 1);
+    int startVerb = story.indexof("<");
+    int endVerb = story.indexOf(">");
+    String part1 = story.substring(0, startVerb);
+    String part2 = story.substring(endVerb + 1);
     // user input verb1
     System.out.print("Enter a verb: ");
-    String Verb1 = scanner.nextLine();
-    story = part1 + Verb1 + part2;
+    String Verb = scanner.nextLine();
+    story = part1 + Verb + part2;
+
+     //split story for plural noun
+    int startPluralNoun = story.indexof("<");
+    int endPluralNoun = story.indexOf(">");
+    String part1 = story.substring(0, startPluralNoun);
+    String part2 = story.substring(endPluralNoun + 1);
+
+    // user input plular noun
+    System.out.print("Enter a plural noun: ");
+    String pluralNoun = scanner.nextLine();
+    story = part1 + pluralNoun + part2;
 }
