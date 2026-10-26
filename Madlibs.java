@@ -70,7 +70,7 @@ public class Madlibs {
         String adjective2 = scanner.nextLine();
         story = part11 + adjective2 + part12;
         //print final story
-        System.out.println("Heres your story: ");
+        System.out.println("Here's your story: ");
         System.out.print(story);
     }
 }
