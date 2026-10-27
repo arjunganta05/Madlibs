@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Madlibs {
+public class Ganta_Madlibs {
     Scanner scanner = new Scanner(System.in);
     String story = "Without warning, a wild <noun> burst into the <adjective1> computer lab and started to <verb> directly toward the server. The manager dropped a tray of <pluralNoun> into the <place> causing <adjective2> laughter!";
 
