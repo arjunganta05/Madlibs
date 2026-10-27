@@ -10,4 +10,4 @@
     String adjective1 = scanner.nextLine();
     story = part1 + adjective1 + part2;
 
-    <img width="767" height="317" alt="image" src="https://github.com/user-attachments/assets/9ce338c7-fc00-43ca-b87a-61366e93e085" />
+<img width="767" height="317" alt="image" src="https://github.com/user-attachments/assets/18a64ef7-60b8-4f1b-9753-2e0e998a6ee1" />
